@@ -1,0 +1,354 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+.navbar {
+  background-color: rgb(53, 53, 53);
+  color: rgb(206, 188, 188);
+  padding: 0px px;
+
+
+}
+
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.Logo {
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 20PX;
+  color: white;
+
+}
+
+.ul-first:hover {
+  color: white;
+}
+
+.ul-first {
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  /* margin-right: 55px; */
+}
+
+.name img{
+  width: 350px;
+  height: 350px;
+  border: rgb(53, 53, 53) 10px solid;
+  border-radius: 30% 5% 30% 5%;
+  padding: 15px;
+  transform: rotate(1deg);
+  animation-name: pic-change;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+.discribtion {
+  padding-left: 37px;
+  font-size: 80px;
+  font-weight: bold;
+
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 640px;
+}
+
+lable {
+  font-size: 20px;
+  font-weight: normal;
+  background-color: rgb(241, 238, 238);
+  color: rgb(146, 135, 135);
+  align-content: center;
+  padding: 10px;
+}
+
+.info {
+
+  background-color: rgb(245, 245, 236);
+  width: 100%;
+  height: 700px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info p {
+  margin-top: 7%;
+  margin-left: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  width: 80%;
+  line-height: 1.5;
+  color: rgb(143, 142, 142);
+
+
+
+}
+
+.cv {
+  color: white;
+  padding: 20px;
+  margin-left: 20%;
+  margin-top: 20%;
+
+}
+
+a {
+  text-decoration: none;
+  background-color: black;
+  width: 15%;
+  color: white;
+  padding: 20px;
+
+
+}
+
+h3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 38px;
+  margin-top: 7%;
+  margin-left: 20%;
+
+}
+
+.personal-div {
+  margin-top: 5%;
+  margin-left: 8%;
+
+}
+
+h4 {
+  width: 75%;
+  padding: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(224, 220, 220);
+
+
+}
+
+.detalis {
+  width: 75%;
+  line-height: 1.5;
+  background-color: rgb(247, 247, 247);
+  padding: 3.5%;
+  color: rgb(167, 160, 162);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.skills {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(233, 222, 222);
+  padding: 10px;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: -6%;
+  color: rgb(94, 91, 91);
+
+}
+
+.da {
+  font-size: 15px;
+  color: rgb(59, 53, 53);
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+
+.column {
+  background-color: rgb(240, 240, 225);
+  width: 50%;
+  height: 700px;
+  box-sizing: border-box;
+
+}
+
+
+.services {
+
+  height: 800px;
+  padding: 8% 15%;
+  
+}
+
+.services .ser-one {
+  margin-left: 5%;
+  color: rgb(153, 149, 149);
+}
+
+.services .ser-tow {
+  font-size: 40px;
+  margin-left: 1.5%;
+  color: rgb(58, 57, 57);
+  margin-top: 2%;
+}
+
+.bussnies-all {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 90px;
+  /* background-color: red; */
+
+}
+
+.bussnies {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(243, 243, 243);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: rgb(70, 70, 70);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 15px;
+
+
+}
+.bussnies p{
+  color: rgb(80, 80, 80);
+  padding-top: 16px;
+}
+
+.bussnies ul {
+  color: rgb(161, 161, 161);
+  margin-top: 20px;
+
+}
+
+
+.bussnies .icons {
+  cursor: pointer;
+  font-size: 70px;
+  color: rgb(161, 161, 161);
+
+}
+.portfolio {
+
+  height: 800px;
+  padding: 8% 15%;
+  background-color:rgb(245, 245, 236);
+  
+}
+.portfolio .port-one {
+  margin-left: 5%;
+  color: rgb(153, 149, 149);
+}
+
+.portfolio .port-tow {
+  font-size: 40px;
+  margin-left: 1.5%;
+  color: rgb(58, 57, 57);
+  margin-top: 2%;
+}
+.photos {
+  display: flex;
+  justify-content:space-between;
+  margin-top: 90px;
+  box-sizing: border-box;
+}
+
+.photos img:hover {
+  width: 350px;
+}
+
+.photos img{
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+}
+.edu-exp{
+  
+  background-color: pink;
+  width: 100%;
+  height: 800px;
+  padding: 8% 15%;
+}
+
+.edu-exp .rows {
+  width:100%;
+  height:100%;
+  background-color: yellow;
+}
+.edu-exp .rows .edu-exp-row1 {
+  height:20%;
+  background-color: red;
+}
+.edu-exp .rows .edu-exp-row1-top{
+  margin-left: 10%;
+  color:rgb(153, 149, 149)
+}
+.edu-exp .rows .edu-exp-row1-bottom{
+  font-size: 35px;
+  margin: 2% 3.5%;
+;
+}
+.edu-exp .rows .edu-exp-row2 {
+  background-color: rgb(52, 107, 107);
+  height:80%;
+}
+.edu-exp .rows .edu-exp-row2 .colu-1 {
+  width: 50%;
+ height: 100%;
+  background-color: rgb(139, 62, 62);
+}
+.edu-exp .rows .edu-exp-row2 .colu-1 .colu-1-top{
+ height: 15%;
+background-color: rgb(67, 0, 112);
+padding-left: 40px;
+padding: 25px 40px;
+font-size: 22px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.edu-exp .rows .edu-exp-row2 .colu-1 .colu-1-bottom{
+  /* margin: 30px; */
+  background-color: rgb(168, 74, 168);
+  height: 85%;
+}
+.colu-1-bottom-1{
+  background-color: yellow;
+  height: 27%;
+
+
+}
+
+
+@keyframes pic-change {
+  0% {
+    border-radius: 30% 5% 30% 5%;
+  }
+
+  100% {
+    border-radius: 5% 30% 5% 30%;
+  }
+
+  0% {
+    border: rgb(53, 53, 53) 10px solid
+  }
+
+  50% {
+    border: rgb(216, 63, 230) 10px solid
+  }
+
+  100% {
+    border: rrgb(133, 26, 143)10px solid
+  }
+
+}
